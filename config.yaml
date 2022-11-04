@@ -5,8 +5,8 @@ theme: hugo-fresh-2
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
 disableKinds:
-- taxonomy
-- taxonomyTerm
+  - taxonomy
+  - taxonomyTerm
 markup:
   goldmark:
     renderer:
@@ -20,7 +20,7 @@ params:
   # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
   # preloader: false
   navbarlogo:
-  # Logo (from static/images/logos/___)
+    # Logo (from static/images/logos/___)
     image: logos/logo.svg
     link: /
     # Default width/height. Uncomment if you need to change
@@ -28,7 +28,7 @@ params:
     # height: 28
   font:
     name: "Open Sans"
-    sizes: [400,600]
+    sizes: [400, 600]
   hero:
     # Main hero title
     title: Krzyżówki.
@@ -38,11 +38,11 @@ params:
     image: illustrations/crossword-mockup-nobg.png
 
     playimage: logos/google-play-badge.png
+    playlink: https://play.google.com/store/apps/details?id=com.datumai.mobile.crossword.flutter_crossword
     appimage: logos/app-store-badge.svg
+    appLink: https://apps.apple.com/us/app/krzy%C5%BC%C3%B3wki/id1642158887
   navbar:
-  - title: Privacy Policy
-    url: /privacy-policy
-  - title: Contact
-    url: mailto:spaleniak.weronika@gmail.com?subject=subject&cc=cc@example.com
-
-
+    - title: Privacy Policy
+      url: /privacy-policy
+    - title: Contact
+      url: mailto:spaleniak.weronika@gmail.com?subject=subject&cc=cc@example.com
