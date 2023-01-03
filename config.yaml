@@ -44,5 +44,7 @@ params:
   navbar:
     - title: Privacy Policy
       url: /privacy-policy
+    - title: Terms of Service
+      url: /terms-of-service
     - title: Contact
       url: mailto:spaleniak.weronika@gmail.com?subject=subject&cc=cc@example.com
